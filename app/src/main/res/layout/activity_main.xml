@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
+        <variable name="viewType" type="com.example.databindingtips.Constant" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
