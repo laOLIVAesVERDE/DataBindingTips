@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
-        val tmp = AppUtil.convertToLocalTimeFormat("")
+        val tmp = AppUtil.convertToLocalTimeFormat()
         Log.d("confirm", "lang : $tmp")
     }
 }
