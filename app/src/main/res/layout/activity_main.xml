@@ -5,6 +5,7 @@
 
     <data>
         <import type="com.example.databindingtips.AppUtil"/>
+        <variable name="user" type="com.example.databindingtips.User" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -13,6 +14,7 @@
         tools:context=".MainActivity">
 
         <TextView
+            android:id="@+id/currentTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{AppUtil.convertToLocalTimeFormat()}"
@@ -22,6 +24,13 @@
             android:layout_marginTop="50dp"
             android:textSize="20sp"
             tools:text="2021年9月21日 12時00分"/>
+
+        <com.example.databindingtips.MyCustomView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/currentTime"
+            tools:text="I'm Hoge, 30 years old." />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
