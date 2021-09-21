@@ -5,8 +5,6 @@
 
     <data>
         <import type="com.example.databindingtips.AppUtil"/>
-        <variable name="currentTime" type="String" />
-        <variable name="viewType" type="com.example.databindingtips.Constant" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -22,8 +20,8 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="50dp"
-            android:textSize="16sp"
-            tools:text=""/>
+            android:textSize="20sp"
+            tools:text="2021年9月21日 12時00分"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
