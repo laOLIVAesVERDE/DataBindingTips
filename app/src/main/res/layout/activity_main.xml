@@ -29,8 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/currentTime"
-            tools:text="I'm Hoge, 30 years old." />
-
+            app:user="@{user}"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
