@@ -29,6 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/currentTime"
+            android:layout_marginTop="20dp"
             app:user="@{user}"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,7 +16,7 @@ class MyCustomView : FrameLayout {
 
     private fun initView() {
         val layoutInflater = LayoutInflater.from(context)
-        binding = DataBindingUtil.inflate(layoutInflater, R.layout.my_custom_view, this, false)
+        binding = DataBindingUtil.inflate(layoutInflater, R.layout.my_custom_view, this, true)
     }
 
     fun setUser(user : User) {

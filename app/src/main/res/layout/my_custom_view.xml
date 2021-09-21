@@ -10,7 +10,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="30dp">
+        android:layout_height="wrap_content">
 
         <TextView
             android:layout_width="wrap_content"
@@ -19,7 +19,8 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:text="@{user.introduce()}"
+            android:text="@{String.valueOf(user.introduce())}"
+            android:textSize="20sp"
             tools:text="I'm Hoge, 30 years old."/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
